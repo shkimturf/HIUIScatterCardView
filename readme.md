@@ -21,8 +21,8 @@ Just import **HIUIScatterCardView** source files to your project.
 * Cell means the rect which contains tile to show. Should return cell size for drawing tiles.
 * Tile is actually grid view to show. 
 * initialPanelLevel means radius of initial panel size.
-** | cell | cell | center cell | cell | cell |
-** Above initial level is *2*
+* | cell | cell | center cell | cell | cell |
+* Above initial level is *2*
 
 ``` objc
     CGSize cellSize;
