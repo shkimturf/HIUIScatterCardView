@@ -58,7 +58,7 @@ Supports some kinds of delegate functions.
 
 ## Sample source
 
-**HIUIScatterCardView** implements explained above and shows how to use this library.
+**HIUIScatterCardViewSample** implements explained above and shows how to use this library.
 
 ## Author
 
