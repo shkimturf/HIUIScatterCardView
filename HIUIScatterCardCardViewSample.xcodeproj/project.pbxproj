@@ -14,6 +14,22 @@
 		1EE04BD01D1AC62F003F6EBE /* HIUIScatterCardCardViewSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04BCE1D1AC62F003F6EBE /* HIUIScatterCardCardViewSample.xcdatamodeld */; };
 		1EE04BD21D1AC62F003F6EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04BD11D1AC62F003F6EBE /* Assets.xcassets */; };
 		1EE04BD51D1AC62F003F6EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04BD31D1AC62F003F6EBE /* LaunchScreen.storyboard */; };
+		1EE04C081D1AD0F7003F6EBE /* SampleLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C071D1AD0F7003F6EBE /* SampleLayoutManager.m */; };
+		1EE04C0B1D1AD162003F6EBE /* SampleTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C0A1D1AD162003F6EBE /* SampleTile.m */; };
+		1EE04C161D1AD864003F6EBE /* loading_corner_00.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C0E1D1AD864003F6EBE /* loading_corner_00.gif */; };
+		1EE04C171D1AD864003F6EBE /* loading_corner_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C0F1D1AD864003F6EBE /* loading_corner_01.gif */; };
+		1EE04C181D1AD864003F6EBE /* loading_corner_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C101D1AD864003F6EBE /* loading_corner_02.gif */; };
+		1EE04C191D1AD864003F6EBE /* loading_top_00.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C111D1AD864003F6EBE /* loading_top_00.gif */; };
+		1EE04C1A1D1AD864003F6EBE /* loading_top_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C121D1AD864003F6EBE /* loading_top_01.gif */; };
+		1EE04C1B1D1AD864003F6EBE /* loading_top_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C131D1AD864003F6EBE /* loading_top_02.gif */; };
+		1EE04C1C1D1AD864003F6EBE /* normal_corner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C141D1AD864003F6EBE /* normal_corner.gif */; };
+		1EE04C1D1D1AD864003F6EBE /* normal_top.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C151D1AD864003F6EBE /* normal_top.gif */; };
+		1EE04C301D1AD871003F6EBE /* HIScatterCardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C201D1AD871003F6EBE /* HIScatterCardData.m */; };
+		1EE04C311D1AD871003F6EBE /* HIUIScatterCardGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C221D1AD871003F6EBE /* HIUIScatterCardGuideView.m */; };
+		1EE04C321D1AD871003F6EBE /* HIUIScatterCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C251D1AD871003F6EBE /* HIUIScatterCardView.m */; };
+		1EE04C331D1AD871003F6EBE /* HIUIScatterCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C281D1AD871003F6EBE /* HIUIScatterCardViewController.m */; };
+		1EE04C341D1AD871003F6EBE /* NSArray+HIScatterCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C2D1D1AD871003F6EBE /* NSArray+HIScatterCard.m */; };
+		1EE04C351D1AD871003F6EBE /* UIImage+HIScatterCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C2F1D1AD871003F6EBE /* UIImage+HIScatterCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +44,35 @@
 		1EE04BD11D1AC62F003F6EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE04BD41D1AC62F003F6EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE04BD61D1AC62F003F6EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE04C061D1AD0F7003F6EBE /* SampleLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLayoutManager.h; sourceTree = "<group>"; };
+		1EE04C071D1AD0F7003F6EBE /* SampleLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleLayoutManager.m; sourceTree = "<group>"; };
+		1EE04C091D1AD162003F6EBE /* SampleTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTile.h; sourceTree = "<group>"; };
+		1EE04C0A1D1AD162003F6EBE /* SampleTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTile.m; sourceTree = "<group>"; };
+		1EE04C0E1D1AD864003F6EBE /* loading_corner_00.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_corner_00.gif; sourceTree = "<group>"; };
+		1EE04C0F1D1AD864003F6EBE /* loading_corner_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_corner_01.gif; sourceTree = "<group>"; };
+		1EE04C101D1AD864003F6EBE /* loading_corner_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_corner_02.gif; sourceTree = "<group>"; };
+		1EE04C111D1AD864003F6EBE /* loading_top_00.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_top_00.gif; sourceTree = "<group>"; };
+		1EE04C121D1AD864003F6EBE /* loading_top_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_top_01.gif; sourceTree = "<group>"; };
+		1EE04C131D1AD864003F6EBE /* loading_top_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_top_02.gif; sourceTree = "<group>"; };
+		1EE04C141D1AD864003F6EBE /* normal_corner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = normal_corner.gif; sourceTree = "<group>"; };
+		1EE04C151D1AD864003F6EBE /* normal_top.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = normal_top.gif; sourceTree = "<group>"; };
+		1EE04C1F1D1AD871003F6EBE /* HIScatterCardData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIScatterCardData.h; sourceTree = "<group>"; };
+		1EE04C201D1AD871003F6EBE /* HIScatterCardData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIScatterCardData.m; sourceTree = "<group>"; };
+		1EE04C211D1AD871003F6EBE /* HIUIScatterCardGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardGuideView.h; sourceTree = "<group>"; };
+		1EE04C221D1AD871003F6EBE /* HIUIScatterCardGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIScatterCardGuideView.m; sourceTree = "<group>"; };
+		1EE04C231D1AD871003F6EBE /* HIUIScatterCardTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardTile.h; sourceTree = "<group>"; };
+		1EE04C241D1AD871003F6EBE /* HIUIScatterCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardView.h; sourceTree = "<group>"; };
+		1EE04C251D1AD871003F6EBE /* HIUIScatterCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIScatterCardView.m; sourceTree = "<group>"; };
+		1EE04C261D1AD871003F6EBE /* HIUIScatterCardViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardViewCommon.h; sourceTree = "<group>"; };
+		1EE04C271D1AD871003F6EBE /* HIUIScatterCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardViewController.h; sourceTree = "<group>"; };
+		1EE04C281D1AD871003F6EBE /* HIUIScatterCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIScatterCardViewController.m; sourceTree = "<group>"; };
+		1EE04C291D1AD871003F6EBE /* HIUIScatterCardViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardViewDataSource.h; sourceTree = "<group>"; };
+		1EE04C2A1D1AD871003F6EBE /* HIUIScatterCardViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardViewDelegate.h; sourceTree = "<group>"; };
+		1EE04C2B1D1AD871003F6EBE /* HIUIScatterCardViewLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIScatterCardViewLayoutManager.h; sourceTree = "<group>"; };
+		1EE04C2C1D1AD871003F6EBE /* NSArray+HIScatterCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HIScatterCard.h"; sourceTree = "<group>"; };
+		1EE04C2D1D1AD871003F6EBE /* NSArray+HIScatterCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HIScatterCard.m"; sourceTree = "<group>"; };
+		1EE04C2E1D1AD871003F6EBE /* UIImage+HIScatterCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HIScatterCard.h"; sourceTree = "<group>"; };
+		1EE04C2F1D1AD871003F6EBE /* UIImage+HIScatterCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HIScatterCard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +105,10 @@
 		1EE04BC11D1AC62F003F6EBE /* HIUIScatterCardCardViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				1EE04BDD1D1AC7B6003F6EBE /* libs */,
+				1EE04C0D1D1AD864003F6EBE /* res */,
+				1EE04C041D1AD0DF003F6EBE /* layout manager */,
+				1EE04C051D1AD0E4003F6EBE /* tile */,
 				1EE04BC51D1AC62F003F6EBE /* AppDelegate.h */,
 				1EE04BC61D1AC62F003F6EBE /* AppDelegate.m */,
 				1EE04BC81D1AC62F003F6EBE /* ViewController.h */,
@@ -80,6 +129,71 @@
 				1EE04BC31D1AC62F003F6EBE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE04BDD1D1AC7B6003F6EBE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C1E1D1AD871003F6EBE /* HIUIScatterCardView */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		1EE04C041D1AD0DF003F6EBE /* layout manager */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C061D1AD0F7003F6EBE /* SampleLayoutManager.h */,
+				1EE04C071D1AD0F7003F6EBE /* SampleLayoutManager.m */,
+			);
+			name = "layout manager";
+			sourceTree = "<group>";
+		};
+		1EE04C051D1AD0E4003F6EBE /* tile */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C091D1AD162003F6EBE /* SampleTile.h */,
+				1EE04C0A1D1AD162003F6EBE /* SampleTile.m */,
+			);
+			name = tile;
+			sourceTree = "<group>";
+		};
+		1EE04C0D1D1AD864003F6EBE /* res */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C0E1D1AD864003F6EBE /* loading_corner_00.gif */,
+				1EE04C0F1D1AD864003F6EBE /* loading_corner_01.gif */,
+				1EE04C101D1AD864003F6EBE /* loading_corner_02.gif */,
+				1EE04C111D1AD864003F6EBE /* loading_top_00.gif */,
+				1EE04C121D1AD864003F6EBE /* loading_top_01.gif */,
+				1EE04C131D1AD864003F6EBE /* loading_top_02.gif */,
+				1EE04C141D1AD864003F6EBE /* normal_corner.gif */,
+				1EE04C151D1AD864003F6EBE /* normal_top.gif */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		1EE04C1E1D1AD871003F6EBE /* HIUIScatterCardView */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C1F1D1AD871003F6EBE /* HIScatterCardData.h */,
+				1EE04C201D1AD871003F6EBE /* HIScatterCardData.m */,
+				1EE04C211D1AD871003F6EBE /* HIUIScatterCardGuideView.h */,
+				1EE04C221D1AD871003F6EBE /* HIUIScatterCardGuideView.m */,
+				1EE04C231D1AD871003F6EBE /* HIUIScatterCardTile.h */,
+				1EE04C241D1AD871003F6EBE /* HIUIScatterCardView.h */,
+				1EE04C251D1AD871003F6EBE /* HIUIScatterCardView.m */,
+				1EE04C261D1AD871003F6EBE /* HIUIScatterCardViewCommon.h */,
+				1EE04C271D1AD871003F6EBE /* HIUIScatterCardViewController.h */,
+				1EE04C281D1AD871003F6EBE /* HIUIScatterCardViewController.m */,
+				1EE04C291D1AD871003F6EBE /* HIUIScatterCardViewDataSource.h */,
+				1EE04C2A1D1AD871003F6EBE /* HIUIScatterCardViewDelegate.h */,
+				1EE04C2B1D1AD871003F6EBE /* HIUIScatterCardViewLayoutManager.h */,
+				1EE04C2C1D1AD871003F6EBE /* NSArray+HIScatterCard.h */,
+				1EE04C2D1D1AD871003F6EBE /* NSArray+HIScatterCard.m */,
+				1EE04C2E1D1AD871003F6EBE /* UIImage+HIScatterCard.h */,
+				1EE04C2F1D1AD871003F6EBE /* UIImage+HIScatterCard.m */,
+			);
+			path = HIUIScatterCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE04C1D1D1AD864003F6EBE /* normal_top.gif in Resources */,
 				1EE04BD51D1AC62F003F6EBE /* LaunchScreen.storyboard in Resources */,
+				1EE04C171D1AD864003F6EBE /* loading_corner_01.gif in Resources */,
+				1EE04C1B1D1AD864003F6EBE /* loading_top_02.gif in Resources */,
+				1EE04C181D1AD864003F6EBE /* loading_corner_02.gif in Resources */,
 				1EE04BD21D1AC62F003F6EBE /* Assets.xcassets in Resources */,
+				1EE04C191D1AD864003F6EBE /* loading_top_00.gif in Resources */,
+				1EE04C161D1AD864003F6EBE /* loading_corner_00.gif in Resources */,
+				1EE04C1A1D1AD864003F6EBE /* loading_top_01.gif in Resources */,
+				1EE04C1C1D1AD864003F6EBE /* normal_corner.gif in Resources */,
 				1EE04BCD1D1AC62F003F6EBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,9 +275,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE04BD01D1AC62F003F6EBE /* HIUIScatterCardCardViewSample.xcdatamodeld in Sources */,
+				1EE04C081D1AD0F7003F6EBE /* SampleLayoutManager.m in Sources */,
 				1EE04BCA1D1AC62F003F6EBE /* ViewController.m in Sources */,
 				1EE04BC71D1AC62F003F6EBE /* AppDelegate.m in Sources */,
 				1EE04BC41D1AC62F003F6EBE /* main.m in Sources */,
+				1EE04C311D1AD871003F6EBE /* HIUIScatterCardGuideView.m in Sources */,
+				1EE04C331D1AD871003F6EBE /* HIUIScatterCardViewController.m in Sources */,
+				1EE04C351D1AD871003F6EBE /* UIImage+HIScatterCard.m in Sources */,
+				1EE04C0B1D1AD162003F6EBE /* SampleTile.m in Sources */,
+				1EE04C341D1AD871003F6EBE /* NSArray+HIScatterCard.m in Sources */,
+				1EE04C321D1AD871003F6EBE /* HIUIScatterCardView.m in Sources */,
+				1EE04C301D1AD871003F6EBE /* HIScatterCardData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +434,7 @@
 				1EE04BDB1D1AC62F003F6EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -6,10 +6,13 @@
 //  Copyright © 2016년 Sunhong Kim. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HIUIScatterCardViewController.h"
 
-@interface ViewController : UIViewController
-
+@class SampleLayoutManager;
+@interface ViewController : HIUIScatterCardViewController
+{
+    SampleLayoutManager* _layoutManager;
+}
 
 @end
 
